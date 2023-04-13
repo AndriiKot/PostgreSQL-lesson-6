@@ -70,6 +70,11 @@ select *
 from film 
 where 
 	rental_duration in (6,7)
-	and rental_rate  > 1
+	and rental_rselect *
+from film f 
+where 
+	rental_duration  in (1,6)
+	or
+	title like 'P%';ate  > 1
 	and title like 'P%';
 
