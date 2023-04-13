@@ -66,4 +66,10 @@ where  address2 is not null;
 
 
 
+select *
+from film 
+where 
+	rental_duration in (6,7)
+	and rental_rate  > 1
+	and title like 'P%';
 
