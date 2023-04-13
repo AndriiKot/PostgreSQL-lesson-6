@@ -51,6 +51,19 @@ from film f
 where title like 'Airport%';
 
 
+select *
+from film f 
+where description  not like '%Epic%';
+
+
+select *
+from address a 
+where address2 is null;
+
+select *
+from address a 
+where  address2 is not null;
+
 
 
 
