@@ -38,5 +38,19 @@ from rental r
 where inventory_id between  2000 and 4000;
 
 
+select *
+from film 
+where title like '%Airport%';
+
+select *
+from film f 
+where title like '%Airport';
+
+select *
+from film f 
+where title like 'Airport%';
+
+
+
 
 
